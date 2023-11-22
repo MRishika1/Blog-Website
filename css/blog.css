@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  border: 2px solid whitesmoke;
+  font-family: Inter, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+p {
+  color: gray;
+}
+
+/* Navbar Section */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid whitesmoke;
+}
+
+.logo-section {
+  flex: 20%;
+  /* border: 2px solid whitesmoke; */
+  text-align: center;
+}
+
+.logo-section img {
+  width: 100px;
+  height: 100px;
+}
+
+.menu-section {
+  flex: 60%;
+  border: 2px solid whitesmoke;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.c-section {
+  flex: 20%;
+  border: 2px solid whitesmoke;
+}
+
+/* Second Section */
+
+.second-section {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  background-color: rgb(91, 89, 89);
+  transform: translate(-50%, -50%);
+  border: 5px solid whitesmoke;
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 5em;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 8px #f2eded;
+  -webkit-text-stroke-width: 2px;
+}
+
+/* Third Section */
+
+.third-section {
+  position: absolute;
+  top: 26%;
+  width: 99.9%;
+  border: 5px solid whitesmoke;
+  border-top: none;
+  padding: 80px;
+  margin: 0;
+}
+
+.third-section h3 {
+  width: 50%;
+  color: white;
+  font-size: 35px;
+}
+
+.third-section p {
+  color: gray;
+  width: 58%;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+/* Fourth Section */
+
+.fourth-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  position: relative;
+  margin-top: 25.9%;
+  border: 5px solid whitesmoke;
+  border-top: none;
+  padding: 0;
+}
+
+.f-img {
+  flex: 65%;
+}
+
+.f-img img {
+  width: 100%;
+  height: auto;
+  margin-top: 7px;
+}
+
+.f-info {
+  flex: 35%;
+  padding: 150px 34px;
+}
+
+.f-info h3 {
+  font-size: 40px;
+}
+
+.f-info p {
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.fs-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.fs-one,
+.fs-two {
+  flex: 50%;
+  color: gray;
+}
+
+/* Fifth Section */
+
+.fifth-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  background-color: rgb(91, 89, 89);
+  border: 5px solid whitesmoke;
+  border-top: none;
+}
+
+.fifth-article {
+  flex: 10%;
+}
+
+.fifth-links {
+  flex: 80%;
+}
+
+/* Six Section */
+
+.blog-section {
+  display: flex;
+  flex-wrap: wrap;
+  height: 120px;
+  border: 2px solid whitesmoke;
+  padding: 20px;
+  background-color: black;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  /* border: 2px solid white; */
+  /* margin-top: 6.6%; */
+  width: 100%;
+}
+
+.card .blog-card {
+  flex: 33%;
+  border: 2px solid white;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+  border: 2px solid white;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.card-content p {
+  color: gray;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.card-content button {
+  margin: 10px;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+.card-s {
+  margin-top: 0%;
+}
+
+/* Footer Section */
+
+footer {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid white;
+}
+
+.footer-container {
+  flex: 70%;
+  padding: 20px;
+}
+
+.footer-container h3 {
+  font-size: 15px;
+}
+
+.footer-container p {
+  font-size: 18px;
+  color: gray;
+  margin-top: 7px;
+}
+
+.line {
+  display: inline-block;
+  margin: 5px;
+}
+
+.footer-container a {
+  text-decoration: none;
+}
+
+.footer-container a p {
+  font-size: 15px;
+  color: white;
+}
+
+.footer-container .line:hover {
+  border-bottom: 2px solid white;
+}
+
+.footer-container1 {
+  flex: 30%;
+  padding: 20px;
+}
+
+.footer-container1 p {
+  color: gray;
+}
+
+.f-one {
+  display: inline-block;
+  padding: 5px;
+  text-align: justify;
+}
+
+.f-one h4,
+p {
+  padding: 10px;
+}
+
+.h5 {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(84, 82, 82);
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+  font-size: 18px;
+  border: 5px solid white;
+  border-top: none;
+}
+
+/* Responsiveness */
+
+@media (max-width: 800px) {
+  h3{
+    width: 80%;
+    margin: auto;
+  }
+
+  p{
+    width: 100%;
+  }
+
+  .second-section{
+    margin-top: 25%;
+  }
+
+  .third-section{
+    padding: 0%;
+  }
+
+  .third-section h3{
+    width: 80%;
+    margin: auto;
+    margin-top: 30%;
+  }
+
+  .third-section p{
+    width: 80%;
+    margin: auto;
+  }
+
+  .fourth-section{
+    margin-top: 125%;
+  }
+
+  .fourth-section .f-img, .f-info{
+    flex: 100%;
+    padding: 10px;
+  }
+
+  .f-info, .card-content h3{
+    width: 90%;
+    margin: auto;
+  }
+
+  .fs-container{
+    width: 80%;
+    margin: 100px 50px
+  }
+
+  .fifth-section .fifth-article, .fifth-links{
+    flex: 100%;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+  }
+
+  .fifth-section ul{
+    flex: 100%;
+  }
+
+  .sixth-section .card{
+    flex: 100%;
+  }
+
+  .card-s .blog-card{
+    flex: 100%;
+  }
+
+  .footer-container1 .f-one{
+    flex: 100%;
+  }
+
+  .f-one p{
+    margin: 2px;
+  }
+}
