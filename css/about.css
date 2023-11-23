@@ -8,7 +8,7 @@ body {
   width: 100%;
   background-color: black;
   /* border: 2px solid whitesmoke; */
-  box-shadow: 0px 0px 0px 5px inset white;
+  box-shadow: 2px 2px 5px inset white;box-shadow: 2px 2px 5px inset white;
   font-family: Inter, sans-serif;
 }
 
@@ -32,7 +32,7 @@ nav {
 
 .menu-section {
   flex: 60%;
-  border: 2px solid whitesmoke;
+  box-shadow: 2px 2px 5px inset white;
 }
 
 ul {
@@ -58,7 +58,7 @@ ul li a {
 
 .c-section {
   flex: 20%;
-  border: 2px solid whitesmoke;
+  box-shadow: 2px 2px 5px inset white;
 }
 
 /* Second Section */
@@ -73,7 +73,7 @@ ul li a {
   color: white;
   background-color: rgb(91, 89, 89);
   transform: translate(-50%, -50%);
-  border: 5px solid whitesmoke;
+  box-shadow: 2px 2px 5px inset white;
   margin: 0px;
   padding: 0;
   font-family: sans-serif;
@@ -124,7 +124,7 @@ ul li a {
 
 .fourth-section {
   background-color: rgb(91, 89, 89);
-  border: 5px solid white;
+  box-shadow: 2px 2px 5px inset white;
   color: white;
   position: absolute;
   width: 100%;
@@ -225,7 +225,7 @@ ul li a {
 .mission-content .container .container-img {
   flex: 10%;
   text-align: center;
-  border: 1px solid white;
+  box-shadow: 2px 2px 5px inset white;
   margin: 5px;
   padding: 34px 20px;
   border-radius: 70px;
@@ -262,7 +262,7 @@ ul li a {
   color: white;
   background-color: black;
   transform: translate(-50%, -50%);
-  border: 2px solid whitesmoke;
+  box-shadow: 2px 2px 5px inset white;
   box-shadow: 5px 5px 25px 5px inset white;
   margin: 0px;
   padding: 10px;
@@ -278,7 +278,7 @@ ul li a {
 .card-container {
   flex: 50%;
   padding: 10px;
-  border: 2px solid whitesmoke;
+  box-shadow: 2px 2px 5px inset white;
   color: white;
   text-align: center;
 }
@@ -318,7 +318,7 @@ ul li a {
   padding: 20px;
   color: white;
   background-color: rgba(44, 44, 44, 0.9);
-  border: 5px solid white;
+  box-shadow: 2px 2px 5px inset white;
 }
 
 .c-one {
@@ -360,7 +360,7 @@ ul li a {
 .c-two button:hover {
   background-color: black;
   color: white;
-  border: 1px solid white;
+  box-shadow: 2px 2px 5px inset white;
 }
 
 /* Eight Section */
@@ -428,7 +428,7 @@ footer{
   background-color: black;
   display: flex;
   flex-wrap: wrap;
-  border: 5px solid white;
+  box-shadow: 2px 2px 5px inset white;
 }
 
 .footer-container{
@@ -461,7 +461,7 @@ footer{
 }
 
 .footer-container .line:hover{
-  border-bottom: 2px solid  white;
+  box-shadow: 2px 2px 5px inset white;
 }
 
 .footer-container1{
@@ -497,8 +497,12 @@ footer{
 
 /* Responsive */
 @media (max-width: 800px) {
+  li{
+    margin: 0px;
+  }
+
   .second-section {
-    margin-top: 20%;
+    margin-top: 25%;
     font-size: 65px;
   }
 
@@ -511,6 +515,10 @@ footer{
   .container > div {
     flex: 50%;
     padding: 50px;
+  }
+
+  .container-info p{
+    width: 100%;
   }
 
   .fifth-section {
@@ -530,6 +538,10 @@ footer{
 
   .sixth-section h2 {
     font-size: 70px;
+  }
+
+  .c-one{
+    padding: 0%;
   }
 
   .card-container {

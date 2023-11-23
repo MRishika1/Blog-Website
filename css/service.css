@@ -8,9 +8,9 @@ body {
   width: 100%;
   height: auto;
   background-color: black;
-  border: 5px solid whitesmoke;
+  /* border: 5px solid whitesmoke; */
   font-family: Inter, sans-serif;
-  box-shadow: 2px 2px 8px inset #f2eded;
+  box-shadow: 2px 2px 5px inset white;
 }
 
 h1,
@@ -82,7 +82,7 @@ ul li a {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 37%;
+  top: 22%;
   left: 50%;
   text-align: center;
   color: white;
@@ -263,7 +263,7 @@ p {
 
 @media (max-width: 800px) {
   .second-section {
-    margin-top: 7%;
+    margin-top: 15%;
   }
 
   .third-section {

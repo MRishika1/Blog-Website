@@ -4,12 +4,16 @@
     font-size: .9vw;
   }
 
+  li{
+    margin: 4px;
+  }
+
   .home-info,.home-img{
     flex: 100%;
     font-size: 5vw;
   }
 
-  /* .h-one .box {
+  .h-one .box {
     background-color: grey;
     width: 150px;
     height: 20px;
@@ -27,7 +31,7 @@
     to {
       width: 240px;
     }
-  } */
+  }
 
   .about-section, h3, p{
     flex: 100%;
@@ -35,8 +39,9 @@
 
   .blog-section h2 {
     position: absolute;
-    top: 320%;
-    left: 50%;
+    top: 316%;
+    /* left: 50%; */
+    text-align: center;
     color: white;
     transform: translate(-50%, -50%);
     margin: 20px;
@@ -50,8 +55,7 @@
   }
 
   .btn1, .btn2{
-    flex: 100%;
-    margin: 5px;
+    margin: 0;
   }
 
   .card {
@@ -67,14 +71,19 @@
 
   .process-section,
   h2 {
-    margin-top: 1070%;
+    margin-top: 1050%;
     font-size: 14.5px;
     text-align: center;
   }
 
   .process-section,
   .flex-container {
-    margin-top: 600%;
+    /* margin-top: 600%; */
+    margin: 0;
+  }
+
+  .flex1{
+    margin-top: 30%;
   }
 
   .flex1,
@@ -84,17 +93,27 @@
     flex: 100%;
   }
 
+  .service-section{
+    width: 100%;
+    margin: 0;
+  }
+
   .service-section h2{
-    margin-top: 1350%;
+    margin-top: 1335%;
     font-size: 60px;
     text-align: center;
+    box-shadow: none;
   }
 
   .service-container{
-    margin-top: 5%;
+    margin-top: 25%;
   }
 
   .service1, .service2, .service3{
     flex: 100%;
+  }
+
+  .c-one{
+    padding: 5px;
   }
 }
