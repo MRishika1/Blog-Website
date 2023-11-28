@@ -86,10 +86,7 @@
     margin-top: 30%;
   }
 
-  .flex1,
-  .flex2,
-  .flex3,
-  .flex4 {
+  .flex {
     flex: 100%;
   }
 
@@ -99,14 +96,10 @@
   }
 
   .service-section h2{
-    margin-top: 1335%;
+    /* margin-top: 1335%; */
     font-size: 60px;
     text-align: center;
     box-shadow: none;
-  }
-
-  .service-container{
-    margin-top: 25%;
   }
 
   .service1, .service2, .service3{

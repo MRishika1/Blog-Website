@@ -80,15 +80,15 @@ ul li a {
 .second-section {
   width: 100%;
   height: auto;
-  position: absolute;
-  top: 20%;
+  position: relative;
+  /* top: 20%; */
   left: 50%;
   text-align: center;
   color: white;
   background-color: rgb(91, 89, 89);
   transform: translate(-50%, -50%);
   box-shadow: 2px 2px 5px inset white;
-  margin: 0px;
+  margin-top: 3%;
   padding: 0;
   font-family: sans-serif;
   letter-spacing: 2px;
@@ -102,13 +102,17 @@ ul li a {
 /* Third Section */
 
 .third-section {
-  position: absolute;
-  top: 26%;
+  position: relative;
+  /* top: 26%; */
+  color: wheat;
+  margin-top: 20%;
   width: 99.9%;
-  box-shadow: 2px 2px 5px inset white;
+  /* box-shadow: 2px 2px 5px inset white; */
   border-top: none;
-  padding: 80px;
+  padding: 20px;
   margin: 0;
+  text-align: center;
+  font-size: 40px;
 }
 
 .third-section h3 {
@@ -331,78 +335,81 @@ p {
 /* Responsiveness */
 
 @media (max-width: 800px) {
-  h3{
+  h3 {
     width: 100%;
-    padding: 5px
+    padding: 5px;
   }
 
-  p{
+  p {
     width: 100%;
   }
 
-  .second-section{
-    margin-top: 25%;
+  .second-section {
+    margin-top: 14%;
   }
 
-  .third-section{
+  .third-section {
     padding: 0%;
   }
 
-  .third-section h3{
+  .third-section h3 {
     width: 80%;
     margin: auto;
     margin-top: 30%;
   }
 
-  .third-section p{
+  .third-section p {
     width: 80%;
     margin: auto;
   }
 
-  .fourth-section{
+  .fourth-section {
     margin-top: 125%;
   }
 
-  .fourth-section .f-img, .f-info{
+  .fourth-section .f-img,
+  .f-info {
     flex: 100%;
     padding: 10px;
   }
 
-  .f-info, .card-content h3{
+  .f-info,
+  .card-content h3 {
     width: 90%;
     margin: auto;
   }
 
-  .fs-container{
+  .fs-container {
     width: 80%;
-    margin: 30px
+    margin: 30px;
   }
 
-  .fifth-section .fifth-article, .fifth-links{
+  .fifth-section .fifth-article,
+  .fifth-links {
     flex: 100%;
     text-align: center;
     padding: 2px;
     margin: 2px;
   }
 
-  .fifth-section ul{
+  .fifth-section ul {
     width: 100%;
     margin: 10px;
   }
 
-  .sixth-section .card{
+  .sixth-section .card {
     flex: 100%;
   }
 
-  .card-s .blog-card{
+  .card-s .blog-card {
     flex: 100%;
   }
 
-  .footer-container1 .f-one{
+  .footer-container1 .f-one {
     flex: 100%;
   }
 
-  .f-one p{
+  .f-one p {
     margin: 2px;
   }
 }
