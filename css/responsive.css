@@ -1,112 +1,113 @@
-@media (max-width: 800px) {
-  .body{
-    flex: 100%;
-    font-size: .9vw;
-  }
-
-  li{
-    margin: 4px;
-  }
-
-  .home-info,.home-img{
-    flex: 100%;
-    font-size: 5vw;
-  }
-
-  .h-one .box {
-    background-color: grey;
-    width: 150px;
-    height: 20px;
-    margin: 20px;
+@media (max-width: 62em) {
+  .header {
     position: relative;
-    animation-name: one;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes one {
-    from {
-      width: 150px;
-    }
-    to {
-      width: 240px;
-    }
+    width: 100%;
   }
 
-  .about-section, h3, p{
-    flex: 100%;
+  .header img {
+    width: 55%;
   }
 
-  .blog-section h2 {
+  .logo-container {
+    flex: 30%;
+    text-align: left;
+    box-shadow: none;
+  }
+
+  .navbar {
+    width: 100%;
+    height: auto;
+    background: black;
     position: absolute;
-    top: 316%;
-    /* left: 50%; */
-    text-align: center;
-    color: white;
-    transform: translate(-50%, -50%);
-    margin: 20px;
-    padding: 0;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 6em;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: translateX(100%);
+    transition: all 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    box-shadow: none;
   }
 
-  .btn1, .btn2{
-    margin: 0;
+  .mobile-navbar-btn {
+    display: block;
+    z-index: 999;
+    border: 3px solid black;
+    color: black;
+    margin: 10% auto;
   }
 
-  .card {
-    margin-top: 28%;
+  .navbar-list {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40%;
   }
-  .card .blog-card {
-    flex: 100%;
-    border: 2px solid white;
+
+  .contact-container {
+    box-shadow: none;
   }
-  .card-s {
+
+  .contact-container ul {
     margin-top: 0%;
   }
 
-  .process-section,
+  .active .navbar {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  /* Home Section */
+  .btn1,
+  .btn2 {
+    margin: 3%;
+  }
+
+  /* About section */
+  .about-section h3,
+  p {
+    flex: 100%;
+    text-align: justify;
+  }
+
+  /* Process Section */
+  .process-section {
+    padding: 5px;
+  }
+
   h2 {
-    margin-top: 1050%;
-    font-size: 14.5px;
-    text-align: center;
-  }
-
-  .process-section,
-  .flex-container {
-    /* margin-top: 600%; */
-    margin: 0;
-  }
-
-  .flex1{
-    margin-top: 30%;
+    font-size: 20%;
   }
 
   .flex {
     flex: 100%;
   }
 
-  .service-section{
-    width: 100%;
-    margin: 0;
-  }
-
-  .service-section h2{
-    /* margin-top: 1335%; */
-    font-size: 60px;
-    text-align: center;
-    box-shadow: none;
-  }
-
-  .service1, .service2, .service3{
+  /* Service Section */
+  .service {
     flex: 100%;
   }
+}
 
-  .c-one{
-    padding: 5px;
+@media (max-width: 35em) {
+  .header {
+    padding: 0 2.4rem;
+  }
+
+  .header .logo {
+    width: 50%;
   }
 }

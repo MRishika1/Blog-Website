@@ -1,3 +1,14 @@
+// Navbar
+const mobile_nav = document.querySelector(".mobile-navbar-btn");
+const nav_header = document.querySelector(".header");
+
+const tooggleNavbar = () => {
+    nav_header.classList.toggle('active');
+};
+
+mobile_nav.addEventListener("click", () => tooggleNavbar());
+
+// Count Number
 const myNum = document.querySelectorAll(".counter-numbers");
 let speed = 30;
 
